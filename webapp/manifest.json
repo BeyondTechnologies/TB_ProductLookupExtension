@@ -35,8 +35,11 @@
 			"component": "retail.store.productlookups1",
 			"extensions": {
 				"sap.ui.controllerExtensions": {
-					"retail.store.productlookups1.controller.ProductDetails": {
-						"controllerName": "retail.store.productlookups1.ZRT_PROD_LKPS1.controller.ProductDetailsCustom"
+					"retail.store.productlookups1.controller.App": {
+						"controllerName": "retail.store.productlookups1.ZRT_PROD_LKPS1.controller.AppCustom"
+					},
+					"retail.store.productlookups1.controller.ProductsList": {
+						"controllerName": "retail.store.productlookups1.ZRT_PROD_LKPS1.controller.ProductsListCustom"
 					}
 				}
 			}
@@ -47,7 +50,7 @@
 		}
 	},
 	"sap.platform.abap": {
-		"uri": "/sap/bc/ui5_ui5/sap/zrt_prod_lkps1/webapp",
+		"uri": "/sap/bc/ui5_ui5/sap/zrt_prod_lkps1",
 		"_version": "1.1.0"
 	}
 }

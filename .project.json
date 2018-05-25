@@ -1,0 +1,52 @@
+{
+  "mockpreview": {
+    "mockUri": "",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "GWD",
+    "name": "ZRT_PROD_LKPS1"
+  },
+  "extensibility": {
+    "controllers": {
+      "App": "RT_PROD_LKPS1%2fcontroller%2fApp.controller.js",
+      "ProductDetails": "RT_PROD_LKPS1%2fcontroller%2fProductDetails.controller.js",
+      "ProductsList": "RT_PROD_LKPS1%2fcontroller%2fProductsList.controller.js"
+    },
+    "views": {
+      "App": "RT_PROD_LKPS1%2fview%2fApp.view.xml",
+      "DetailNoObjectsAvailable": "RT_PROD_LKPS1%2fview%2fDetailNoObjectsAvailable.view.xml",
+      "DetailObjectNotFound": "RT_PROD_LKPS1%2fview%2fDetailObjectNotFound.view.xml",
+      "NotFound": "RT_PROD_LKPS1%2fview%2fNotFound.view.xml",
+      "ProductDetails": "RT_PROD_LKPS1%2fview%2fProductDetails.view.xml",
+      "ProductsList": "RT_PROD_LKPS1%2fview%2fProductsList.view.xml"
+    },
+    "fragments": {
+      "BonusBuyList": "RT_PROD_LKPS1%2fview%2fBonusBuyList.fragment.xml",
+      "BonusBuyTable": "RT_PROD_LKPS1%2fview%2fBonusBuyTable.fragment.xml",
+      "DeliveryList": "RT_PROD_LKPS1%2fview%2fDeliveryList.fragment.xml",
+      "DeliveryTable": "RT_PROD_LKPS1%2fview%2fDeliveryTable.fragment.xml",
+      "NearbyStoresGeoMapSpotDetails": "RT_PROD_LKPS1%2fview%2fNearbyStoresGeoMapSpotDetails.fragment.xml",
+      "NearbyStoresList": "RT_PROD_LKPS1%2fview%2fNearbyStoresList.fragment.xml",
+      "NearbyStoresMap": "RT_PROD_LKPS1%2fview%2fNearbyStoresMap.fragment.xml",
+      "NearbyStoresPopover": "RT_PROD_LKPS1%2fview%2fNearbyStoresPopover.fragment.xml",
+      "NearbyStoresTable": "RT_PROD_LKPS1%2fview%2fNearbyStoresTable.fragment.xml",
+      "ProductItemTemplate": "RT_PROD_LKPS1%2fview%2fProductItemTemplate.fragment.xml",
+      "PromotionList": "RT_PROD_LKPS1%2fview%2fPromotionList.fragment.xml",
+      "PromotionTable": "RT_PROD_LKPS1%2fview%2fPromotionTable.fragment.xml",
+      "SiteListItemTemplate": "RT_PROD_LKPS1%2fview%2fSiteListItemTemplate.fragment.xml",
+      "VariantsList": "RT_PROD_LKPS1%2fview%2fVariantsList.fragment.xml",
+      "VariantsTable": "RT_PROD_LKPS1%2fview%2fVariantsTable.fragment.xml",
+      "ViewSettingsDialog": "RT_PROD_LKPS1%2fview%2fViewSettingsDialog.fragment.xml"
+    },
+    "type": "abaprep",
+    "shouldLinkComponentToManifest": true,
+    "component": "RT_PROD_LKPS1%2fComponent.js",
+    "manifest": "RT_PROD_LKPS1%2fmanifest.json",
+    "versionJsonPath": "RT_PROD_LKPS1%2fversion.json",
+    "minUI5Version": "1.48.4"
+  }
+}
