@@ -5,6 +5,14 @@
 		"id": "retail.store.productlookups1.ZRT_PROD_LKPS1",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
+		"dataSources": {
+			"mainService": {
+				"uri": "/sap/opu/odata/sap/ZRT_PRODUCT_LOOKUP_SRV/",
+				"settings": {
+					"localUri": "./localService/metadata.xml"
+				}
+			}
+		},
 		"applicationVersion": {
 			"version": "1.0"
 		},
@@ -41,6 +49,20 @@
 					"retail.store.productlookups1.controller.ProductsList": {
 						"controllerName": "retail.store.productlookups1.ZRT_PROD_LKPS1.controller.ProductsListCustom"
 					}
+				},
+				"sap.ui.viewReplacements": {
+					"retail.store.productlookups1.view.ProductDetails": {
+						"viewName": "retail.store.productlookups1.ZRT_PROD_LKPS1.view.ProductDetailsCustom",
+						"type": "XML"
+					}
+				}
+			}
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "retail.store.productlookups1.ZRT_PROD_LKPS1.i18n.i18n"
 				}
 			}
 		},
@@ -50,7 +72,7 @@
 		}
 	},
 	"sap.platform.abap": {
-		"uri": "/sap/bc/ui5_ui5/sap/zrt_prod_lkps1",
+		"uri": "/sap/bc/ui5_ui5/sap/zrt_prod_lkps1/webapp",
 		"_version": "1.1.0"
 	}
 }
